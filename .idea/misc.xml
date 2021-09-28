@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/frame_layout_09.xml" value="0.22" />
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/framelayout_hw.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/imageview_14.xml" value="0.1" />
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/padding_margin_06.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/relative_layout_04.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/relative_layout_05.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/relative_layout_10.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/relative_layout_hw.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/deblu/AndroidStudioProjects/KtPractice/app/src/main/res/layout/scrollview_13.xml" value="0.14479166666666668" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
