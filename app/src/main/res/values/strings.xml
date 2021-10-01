@@ -38,4 +38,15 @@
 
     <string name="btn_team_create_confirm">생성하기</string>
     <string name="btn_team_create_reset">초기화</string>
+
+    <!-- 팀 찾기 -->
+    <string name="team_search_title">팀 참여하기</string>
+    <string name="team_search_description_main">팀을 찾아보세요</string>
+    <string name="team_search_description_sub">검색어를 입력하여 검색하세요.</string>
+    <string name="team_search_bar_placeholder">검색...</string>
+    <string name="team_search_result_figure">검색결과 0개</string> <!-- 서버에서 가져오기 -->
+
+    <!-- 팀 가입 확인하기 -->
+    <string name="team_confirm_title">가입 확인</string>
+    <string name="team_confirm_description">가입 신청한 팀들의 가입 승인 현황을\n확인하실 수 있어요.</string>
 </resources>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 하단 navbar 항목이 선택되어 있으면 글자 색도 accent color로 바뀜-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:weightSum="6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="6">
 
     <RelativeLayout
         android:id="@+id/top_nav"
         android:layout_width="match_parent"
-        android:layout_height="75dp">
+        android:layout_height="75dp"
+        android:background="#FFB74D">
 
         <ImageView
             android:id="@+id/appbar1"
@@ -29,8 +31,7 @@
             android:gravity="left|center"
             android:paddingLeft="10dp"
             android:text="@string/team_generate"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,9 +43,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
                 android:background="@drawable/border_all_directions_with_radius"
-                android:backgroundTint="#E1DCDC"
+                android:backgroundTint="#FFD08C"
+                android:padding="10dp"
                 android:text="@string/team_manage"
                 android:textSize="20sp" />
 
@@ -53,51 +54,52 @@
     </RelativeLayout>
 
     <com.google.android.material.divider.MaterialDivider
-        android:layout_alignBottom="@+id/top_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:dividerColor="#CDCDCD"/>
+        android:layout_alignBottom="@+id/top_nav"
+        app:dividerColor="#CDCDCD" />
 
     <LinearLayout
         android:id="@+id/lobby_nav"
-        android:layout_weight="1"
-        android:weightSum="3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/top_nav"
+        android:layout_weight="1"
         android:orientation="vertical"
-        android:layout_below="@id/top_nav">
+        android:weightSum="3">
 
         <LinearLayout
-            android:layout_weight="1"
-            android:weightSum="3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
 
             <ImageView
-                android:layout_weight="2"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_baseline_open_in_new_18"
-                android:background="@drawable/border_right_side"/>
+                android:layout_weight="2"
+                android:background="@drawable/border_right_side"
+                android:src="@drawable/ic_baseline_open_in_new_18" />
 
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="bottom"
-                    android:paddingBottom="10dp"
                     android:paddingLeft="20dp"
+                    android:paddingBottom="10dp"
                     android:text="@string/nav_to_team_create"
+                    android:textColor="#FF9D0D"
                     android:textSize="20sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -115,93 +117,95 @@
 
 
         <LinearLayout
-            android:layout_weight="1"
-            android:weightSum="3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_top_bottom_side"
             android:orientation="horizontal"
-            android:background="@drawable/border_top_bottom_side">
+            android:weightSum="3">
 
             <ImageView
-                android:layout_weight="2"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_baseline_login_18"
-                android:background="@drawable/border_right_side"/>
+                android:layout_weight="2"
+                android:background="@drawable/border_right_side"
+                android:src="@drawable/ic_baseline_login_18" />
 
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="bottom"
-                    android:paddingBottom="10dp"
                     android:paddingLeft="20dp"
+                    android:paddingBottom="10dp"
                     android:text="@string/nav_to_team_join"
+                    android:textColor="#FF9D0D"
                     android:textSize="20sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="start"
-                    android:paddingTop="6dp"
                     android:paddingLeft="20dp"
+                    android:paddingTop="6dp"
                     android:text="@string/nav_to_team_join_description"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
-            android:weightSum="3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
 
             <ImageView
-                android:layout_weight="2"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_baseline_favorite_border_18"
-                android:background="@drawable/border_right_side"/>
+                android:layout_weight="2"
+                android:background="@drawable/border_right_side"
+                android:src="@drawable/ic_baseline_favorite_border_18" />
 
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="bottom"
-                    android:paddingBottom="10dp"
                     android:paddingLeft="20dp"
+                    android:paddingBottom="10dp"
                     android:text="@string/nav_to_team_confirm"
+                    android:textColor="#FF9D0D"
                     android:textSize="20sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="start"
-                    android:paddingTop="6dp"
                     android:paddingLeft="20dp"
+                    android:paddingTop="6dp"
                     android:text="@string/nav_to_team_confirm_description"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp" />
 
             </LinearLayout>
         </LinearLayout>
@@ -209,93 +213,94 @@
     </LinearLayout>
 
     <com.google.android.material.divider.MaterialDivider
-        android:layout_alignBottom="@+id/top_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:dividerColor="#CDCDCD"/>
+        android:layout_alignBottom="@+id/top_nav"
+        app:dividerColor="#CDCDCD" />
 
     <LinearLayout
         android:id="@+id/bottom_nav"
-        android:layout_weight="5"
-        android:weightSum="3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:weightSum="3">
 
         <LinearLayout
-            android:layout_weight="1"
-            android:weightSum="3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_weight="1.5"
-                android:paddingTop="4dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_baseline_home_24"
-                android:layout_gravity="center"/>
-
-            <TextView
-                android:layout_weight="2"
-                android:paddingTop="1.6dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/bottom_nav_first_label"
-                android:textSize="12sp"
-                android:textAlignment="center"/>
-        </LinearLayout>
-
-        <LinearLayout
             android:layout_weight="1"
-            android:weightSum="3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@drawable/border_left_right_side">
+            android:weightSum="3">
 
             <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
                 android:layout_weight="1.5"
                 android:paddingTop="4dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_baseline_people_24"
-                android:layout_gravity="center"/>
+                android:src="@drawable/ic_baseline_home_24" />
 
             <TextView
-                android:layout_weight="2"
-                android:paddingTop="1.6dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/bottom_nav_second_label"
-                android:textSize="12sp"
-                android:textAlignment="center"/>
+                android:layout_weight="2"
+                android:paddingTop="1.6dp"
+                android:text="@string/bottom_nav_first_label"
+                android:textAlignment="center"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_weight="1"
-            android:weightSum="3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_weight="1"
+            android:background="@drawable/border_left_right_side"
+            android:orientation="vertical"
+            android:weightSum="3">
 
             <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
                 android:layout_weight="1.5"
                 android:paddingTop="4dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_baseline_notifications_24"
-                android:layout_gravity="center"/>
+                android:src="@drawable/ic_baseline_people_24" />
 
             <TextView
-                android:layout_weight="2"
-                android:paddingTop="1.6dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingTop="1.6dp"
+                android:text="@string/bottom_nav_second_label"
+                android:textAlignment="center"
+                android:textColor="#FF9D0D"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:paddingTop="4dp"
+                android:src="@drawable/ic_baseline_notifications_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingTop="1.6dp"
                 android:text="@string/bottom_nav_third_label"
-                android:textSize="12sp"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:textSize="12sp" />
         </LinearLayout>
 
     </LinearLayout>

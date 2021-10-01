@@ -11,7 +11,8 @@
     <RelativeLayout
         android:id="@+id/top_nav"
         android:layout_width="match_parent"
-        android:layout_height="75dp">
+        android:layout_height="75dp"
+        android:background="#FFB74D">
 
     <ImageView
         android:id="@+id/appbar1"
@@ -28,9 +29,8 @@
             android:layout_toRightOf="@+id/appbar1"
             android:gravity="left|center"
             android:paddingLeft="10dp"
-            android:text="@string/team_manage"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:text="@string/team_create_title"
+            android:textSize="20sp" />
 
     </RelativeLayout>
 
@@ -110,7 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/border_all_directions_with_radius"
-                android:backgroundTint="#FF9800">
+                android:backgroundTint="#FF9D0D">
 
                 <ImageView
                     android:layout_weight="2"

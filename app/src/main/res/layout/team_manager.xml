@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +10,8 @@
     <RelativeLayout
         android:id="@+id/top_nav"
         android:layout_width="match_parent"
-        android:layout_height="75dp">
+        android:layout_height="75dp"
+        android:background="#FFB74D">
 
         <ImageView
             android:id="@+id/appbar1"
@@ -27,8 +29,7 @@
             android:gravity="left|center"
             android:paddingLeft="10dp"
             android:text="@string/team_manage"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:background="@drawable/border_all_directions_with_radius"
-                android:backgroundTint="#E1DCDC"
+                android:backgroundTint="#FFD08C"
                 android:text="@string/team_generate"
                 android:textSize="20sp" />
 
@@ -73,21 +74,21 @@
             <!-- 현재 참여중인 팀의 숫자를 표시하는 뷰로, 텍스트 부분에는 팀 숫자가 표시된다. -->
             <TextView
                 android:id="@+id/team_figure"
-                android:paddingTop="2dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:paddingTop="2dp"
                 android:text="@string/num_participated_team_now"
                 android:textSize="24sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
-                android:paddingTop="2dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
                 android:layout_toRightOf="@id/team_figure"
+                android:paddingTop="2dp"
                 android:text="9"
-                android:textColor="#FF9800"
+                android:textColor="#FF9D0D"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -186,7 +187,8 @@
                 android:paddingTop="1.6dp"
                 android:text="팀"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:foregroundTint="#FF9D0D"/>
         </LinearLayout>
 
         <LinearLayout
