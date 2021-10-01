@@ -6,6 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.team_manager)
+        setContentView(R.layout.team_creation)
     }
 }

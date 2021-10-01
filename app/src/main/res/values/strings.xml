@@ -32,8 +32,9 @@
     <!-- 팀 생성 -->
     <string name="team_create_title">팀 만들기</string>
     <string name="team_create_name">팀 이름</string>
-    <string name="team_create_activity_purpose">팀 이름</string>
-    <string name="team_create_activity_due_date">팀 이름</string>
+    <string name="team_create_activity_purpose">활동 주제</string>
+    <string name="team_create_maximum_teammates">최대 활동 인원</string>
+    <string name="team_create_activity_due_date">활동 기간</string>
 
     <string name="btn_team_create_confirm">생성하기</string>
     <string name="btn_team_create_reset">초기화</string>
