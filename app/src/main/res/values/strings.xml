@@ -9,4 +9,32 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- 팀 구성 및 관리 메인화면 -->
+    <string name="team_generate">팀 구성</string>
+    <string name="team_manage">팀 관리</string>
+
+    <string name="nav_to_team_create">팀 만들기</string>
+    <string name="nav_to_team_create_description">새로운 팀을 만들어 보세요.</string>
+
+    <string name="nav_to_team_join">팀 참여하기</string>
+    <string name="nav_to_team_join_description">관심 있는 팀에 함께하세요.</string>
+
+    <string name="nav_to_team_confirm">가입 확인하기</string>
+    <string name="nav_to_team_confirm_description">가입하려는 팀에 함께할 수 있는지 확인해보세요.</string>
+
+    <string name="num_participated_team_now">현재 참여중인 팀</string>
+
+    <string name="bottom_nav_first_label">홈</string>
+    <string name="bottom_nav_second_label">팀</string>
+    <string name="bottom_nav_third_label">알림</string>
+
+    <!-- 팀 생성 -->
+    <string name="team_create_title">팀 만들기</string>
+    <string name="team_create_name">팀 이름</string>
+    <string name="team_create_activity_purpose">팀 이름</string>
+    <string name="team_create_activity_due_date">팀 이름</string>
+
+    <string name="btn_team_create_confirm">생성하기</string>
+    <string name="btn_team_create_reset">초기화</string>
 </resources>

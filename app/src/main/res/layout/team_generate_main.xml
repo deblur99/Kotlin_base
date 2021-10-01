@@ -22,16 +22,31 @@
             android:src="@drawable/ic_baseline_arrow_back_ios_24" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/appbar1_text"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
             android:layout_toRightOf="@+id/appbar1"
-            android:gravity="center"
+            android:gravity="left|center"
             android:paddingLeft="10dp"
-            android:text="팀 구성"
-            android:textAlignment="textStart"
-            android:textFontWeight="900"
-            android:textSize="30sp"
-            tools:ignore="RtlCompat" />
+            android:text="@string/team_generate"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/appbar1_text"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/border_all_directions_with_radius"
+                android:text="@string/team_manage"
+                android:textSize="20sp" />
+
+        </LinearLayout>
 
     </RelativeLayout>
 
@@ -60,27 +75,26 @@
             <ImageView
                 android:layout_weight="2"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:src="@drawable/ic_baseline_open_in_new_18"
                 android:background="@drawable/border_right_side"/>
 
             <LinearLayout
                 android:layout_weight="1"
-                android:weightSum="3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="2"
+                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="left"
-                    android:paddingTop="20dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
                     android:paddingLeft="20dp"
-                    android:text="팀 만들기"
-                    android:textSize="32sp"
+                    android:text="@string/nav_to_team_create"
+                    android:textSize="20sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -88,10 +102,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="left"
-                    android:paddingTop="5dp"
+                    android:paddingTop="6dp"
                     android:paddingLeft="20dp"
-                    android:text="새로운 팀을 만들어 보세요."
-                    android:textSize="20sp"/>
+                    android:text="@string/nav_to_team_create_description"
+                    android:textSize="16sp"/>
 
             </LinearLayout>
 
@@ -109,27 +123,26 @@
             <ImageView
                 android:layout_weight="2"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:src="@drawable/ic_baseline_login_18"
                 android:background="@drawable/border_right_side"/>
 
             <LinearLayout
                 android:layout_weight="1"
-                android:weightSum="3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="2"
+                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="left"
-                    android:paddingTop="20dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
                     android:paddingLeft="20dp"
-                    android:text="팀 참여하기"
-                    android:textSize="32sp"
+                    android:text="@string/nav_to_team_join"
+                    android:textSize="20sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -137,10 +150,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="left"
-                    android:paddingTop="5dp"
+                    android:paddingTop="6dp"
                     android:paddingLeft="20dp"
-                    android:text="관심 있는 팀에 함께하세요."
-                    android:textSize="20sp"/>
+                    android:text="@string/nav_to_team_join_description"
+                    android:textSize="16sp"/>
 
             </LinearLayout>
 
@@ -156,27 +169,26 @@
             <ImageView
                 android:layout_weight="2"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:src="@drawable/ic_baseline_favorite_border_18"
                 android:background="@drawable/border_right_side"/>
 
             <LinearLayout
                 android:layout_weight="1"
-                android:weightSum="3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_weight="2"
+                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="left"
-                    android:paddingTop="20dp"
+                    android:gravity="bottom"
+                    android:paddingBottom="10dp"
                     android:paddingLeft="20dp"
-                    android:text="가입 확인하기"
-                    android:textSize="32sp"
+                    android:text="@string/nav_to_team_confirm"
+                    android:textSize="20sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -184,10 +196,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="left"
-                    android:paddingTop="5dp"
+                    android:paddingTop="6dp"
                     android:paddingLeft="20dp"
-                    android:text="가입하려는 팀에 함께할 수 있는지 확인해보세요."
-                    android:textSize="20sp"/>
+                    android:text="@string/nav_to_team_confirm_description"
+                    android:textSize="16sp"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -228,8 +240,8 @@
                 android:paddingTop="1.6dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="홈"
-                android:textSize="15sp"
+                android:text="@string/bottom_nav_first_label"
+                android:textSize="12sp"
                 android:textAlignment="center"/>
         </LinearLayout>
 
@@ -254,8 +266,8 @@
                 android:paddingTop="1.6dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="팀"
-                android:textSize="15sp"
+                android:text="@string/bottom_nav_second_label"
+                android:textSize="12sp"
                 android:textAlignment="center"/>
         </LinearLayout>
 
@@ -279,8 +291,8 @@
                 android:paddingTop="1.6dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="알림"
-                android:textSize="15sp"
+                android:text="@string/bottom_nav_third_label"
+                android:textSize="12sp"
                 android:textAlignment="center"/>
         </LinearLayout>
 
