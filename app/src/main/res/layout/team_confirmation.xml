@@ -10,7 +10,7 @@
         android:id="@+id/top_nav"
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:background="#FFB74D">
+        android:background="@color/orange_main">
 
         <ImageView
             android:id="@+id/appbar1"

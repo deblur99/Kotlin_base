@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:text="·"
-        android:textColor="#FF9D0D"
+        android:textColor="@color/orange_accent"
         android:textSize="24sp"
         android:textStyle="bold" />
 

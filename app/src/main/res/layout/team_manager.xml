@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:background="@drawable/border_all_directions_with_radius"
-                android:backgroundTint="#FFD08C"
+                android:backgroundTint="@color/orange_base"
                 android:text="@string/team_generate"
                 android:textSize="20sp" />
 
@@ -88,7 +88,7 @@
                 android:layout_toRightOf="@id/team_figure"
                 android:paddingTop="2dp"
                 android:text="9"
-                android:textColor="#FF9D0D"
+                android:textColor="@color/orange_accent"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -188,7 +188,7 @@
                 android:text="팀"
                 android:textAlignment="center"
                 android:textSize="12sp"
-                android:foregroundTint="#FF9D0D"/>
+                android:textColor="@color/orange_accent"/>
         </LinearLayout>
 
         <LinearLayout
