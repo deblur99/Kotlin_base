@@ -11,6 +11,114 @@ class Listener : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_listener)
 
+        var sum: Int = 0
+        var operand: Int = 0
+
+        var operand_String: String = ""
+
+        var isOperandNow: Boolean = false
+        var isPressed: Boolean = false
+
+        fun eraseForwardZero() {
+            if (result_indicator.text.toString().equals("0")) {
+                result_indicator.setText("")
+            }
+        }
+
+        fun eraseBeforeNewOperand() {
+            if (!isPressed) {
+                result_indicator.setText("")
+                isPressed = true
+            }
+        }
+
+        zero.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "0")
+        }
+
+        one.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "1")
+        }
+
+        two.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "2")
+        }
+
+        three.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "3")
+        }
+
+        four.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "4")
+        }
+
+        five.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "5")
+        }
+
+        six.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "6")
+        }
+
+        seven.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "7")
+        }
+
+        eight.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "8")
+        }
+
+        nine.setOnClickListener {
+            eraseBeforeNewOperand()
+            eraseForwardZero()
+            result_indicator.setText(result_indicator.text.toString() + "9")
+        }
+
+        CA.setOnClickListener {
+            sum = 0
+            result_indicator.setText(sum.toString())
+        }
+
+        plus.setOnClickListener {
+            operand = result_indicator.text.toString().toInt()
+            sum += operand
+
+            if (!isOperandNow) { // op1
+                result_indicator.setText("0")
+                isOperandNow = true
+
+            } else { // op2
+                result_indicator.setText(sum.toString())
+                isOperandNow = false
+                isPressed = false
+            }
+
+            Log.d("sum", sum.toString())
+
+            operand = 0
+        }
+    }
+}
+
+/*
 //        val textView : TextView = findViewById<TextView>(R.id.hello) -> in Java
         hello.setOnClickListener{
             Log.d("click","Click!!")
@@ -39,5 +147,4 @@ class Listener : AppCompatActivity() {
         hello.setOnClickListener(click)
 
         // 뷰를 조작하는 함수들
-    }
-}
+         */
