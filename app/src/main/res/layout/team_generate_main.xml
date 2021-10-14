@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="6">
+    android:background="@color/white">
 
     <RelativeLayout
         android:id="@+id/top_nav"
@@ -31,14 +31,15 @@
             android:gravity="left|center"
             android:paddingLeft="10dp"
             android:text="@string/team_generate"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="#6E6E6E"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="16dp"
             android:layout_toRightOf="@id/appbar1_text"
-            android:gravity="center">
+            android:gravity="right|center">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -47,6 +48,7 @@
                 android:backgroundTint="#FFD08C"
                 android:padding="10dp"
                 android:text="@string/team_manage"
+                android:textColor="#6E6E6E"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -62,7 +64,7 @@
     <LinearLayout
         android:id="@+id/lobby_nav"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="572dp"
         android:layout_below="@id/top_nav"
         android:layout_weight="1"
         android:orientation="vertical"
@@ -109,7 +111,8 @@
                     android:paddingLeft="20dp"
                     android:paddingTop="6dp"
                     android:text="@string/nav_to_team_create_description"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:textColor="#838383"/>
 
             </LinearLayout>
 
@@ -148,7 +151,7 @@
                     android:text="@string/nav_to_team_join"
                     android:textColor="@color/orange_accent"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -158,7 +161,8 @@
                     android:paddingLeft="20dp"
                     android:paddingTop="6dp"
                     android:text="@string/nav_to_team_join_description"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:textColor="#838383"/>
 
             </LinearLayout>
 
@@ -205,7 +209,8 @@
                     android:paddingLeft="20dp"
                     android:paddingTop="6dp"
                     android:text="@string/nav_to_team_confirm_description"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:textColor="#838383"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -221,10 +226,10 @@
     <LinearLayout
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="5"
+        android:layout_height="40dp"
+        android:layout_weight="6"
         android:orientation="horizontal"
-        android:weightSum="3">
+        android:weightSum="@color/white">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -248,7 +253,8 @@
                 android:paddingTop="1.6dp"
                 android:text="@string/bottom_nav_first_label"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#6E6E6E"/>
         </LinearLayout>
 
         <LinearLayout
@@ -274,8 +280,8 @@
                 android:paddingTop="1.6dp"
                 android:text="@string/bottom_nav_second_label"
                 android:textAlignment="center"
-                android:textColor="@color/orange_accent"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="@color/orange_accent" />
         </LinearLayout>
 
         <LinearLayout
@@ -300,6 +306,7 @@
                 android:paddingTop="1.6dp"
                 android:text="@string/bottom_nav_third_label"
                 android:textAlignment="center"
+                android:textColor="#6E6E6E"
                 android:textSize="12sp" />
         </LinearLayout>
 

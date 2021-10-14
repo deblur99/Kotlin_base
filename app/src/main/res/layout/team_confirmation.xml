@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="3">
+    android:weightSum="3"
+    android:background="@color/white">
 
     <RelativeLayout
         android:id="@+id/top_nav"
@@ -28,7 +29,8 @@
             android:gravity="left|center"
             android:paddingLeft="10dp"
             android:text="@string/team_confirm_title"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="#6E6E6E"/>
 
     </RelativeLayout>
 
@@ -44,7 +46,8 @@
         android:paddingLeft="15dp"
         android:paddingTop="12dp"
         android:text="@string/team_confirm_description"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textColor="#838383"/>
 
     <com.google.android.material.divider.MaterialDivider
         android:layout_width="match_parent"

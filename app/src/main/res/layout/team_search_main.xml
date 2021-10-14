@@ -5,7 +5,8 @@
     android:weightSum="3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <RelativeLayout
         android:id="@+id/top_nav"
@@ -29,6 +30,7 @@
             android:gravity="left|center"
             android:paddingLeft="10dp"
             android:text="@string/team_search_title"
+            android:textColor="#6E6E6E"
             android:textSize="20sp" />
 
     </RelativeLayout>
@@ -62,6 +64,7 @@
             android:layout_height="match_parent"
             android:text="@string/team_search_description_sub"
             android:textSize="14sp"
+            android:textColor="#6E6E6E"
             android:textAlignment="center"/>
 
     </LinearLayout>

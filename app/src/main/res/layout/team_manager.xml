@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="6">
+    android:weightSum="6"
+    android:background="@color/white">
 
     <RelativeLayout
         android:id="@+id/top_nav"
@@ -29,23 +30,25 @@
             android:gravity="left|center"
             android:paddingLeft="10dp"
             android:text="@string/team_manage"
+            android:textColor="#6E6E6E"
             android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="16dp"
             android:layout_toRightOf="@id/appbar1_text"
-            android:gravity="center">
+            android:gravity="right|center">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
                 android:background="@drawable/border_all_directions_with_radius"
                 android:backgroundTint="@color/orange_base"
+                android:padding="10dp"
                 android:text="@string/team_generate"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textColor="#6E6E6E"/>
 
         </LinearLayout>
 
@@ -57,11 +60,10 @@
         android:layout_alignBottom="@+id/top_nav"
         app:dividerColor="#CDCDCD" />
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/lobby_nav"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="651dp"
         android:orientation="horizontal">
 
         <RelativeLayout
@@ -78,6 +80,7 @@
                 android:layout_height="match_parent"
                 android:paddingTop="2dp"
                 android:text="@string/num_participated_team_now"
+                android:textColor="#838383"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -111,19 +114,20 @@
         <!-- 활동중인 팀 목록 보여주기 -->
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="512dp"
             android:layout_below="@id/center_divider">
 
             <ListView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:textColor="#838383">
 
             </ListView>
 
         </ScrollView>
 
 
-    </RelativeLayout>
+    </LinearLayout>
 
     <com.google.android.material.divider.MaterialDivider
         android:layout_width="match_parent"
@@ -134,9 +138,10 @@
     <LinearLayout
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="5"
-        android:orientation="horizontal">
+        android:layout_height="40dp"
+        android:layout_weight="6"
+        android:orientation="horizontal"
+        android:background="@color/white">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -160,7 +165,8 @@
                 android:paddingTop="1.6dp"
                 android:text="홈"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#838383"/>
 
         </LinearLayout>
 
@@ -213,7 +219,8 @@
                 android:paddingTop="1.6dp"
                 android:text="알림"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textColor="#838383"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

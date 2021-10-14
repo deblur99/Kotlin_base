@@ -6,7 +6,8 @@
     android:weightSum="9"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <RelativeLayout
         android:id="@+id/top_nav"
@@ -30,7 +31,8 @@
             android:gravity="left|center"
             android:paddingLeft="10dp"
             android:text="@string/team_create_title"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="#6E6E6E"/>
 
     </RelativeLayout>
 
@@ -56,7 +58,8 @@
             android:layout_height="match_parent"
             android:text="@string/team_create_name"
             android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="#838383"/>
 
         <TextView
             android:layout_weight="1"
@@ -64,7 +67,8 @@
             android:layout_height="match_parent"
             android:text="@string/team_create_activity_purpose"
             android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="#838383"/>
 
         <TextView
             android:layout_weight="1"
@@ -72,7 +76,8 @@
             android:layout_height="match_parent"
             android:text="@string/team_create_maximum_teammates"
             android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="#838383"/>
 
         <TextView
             android:layout_weight="1"
@@ -80,7 +85,8 @@
             android:layout_height="match_parent"
             android:text="@string/team_create_activity_due_date"
             android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="#838383"/>
     </LinearLayout>
 
     <com.google.android.material.divider.MaterialDivider
@@ -118,6 +124,7 @@
                     android:layout_height="20dp"
                     android:paddingLeft="20dp"
                     android:layout_gravity="center"
+
                     android:src="@drawable/ic_baseline_check_24" />
 
                 <TextView
@@ -128,34 +135,8 @@
                     android:gravity="center"
                     android:text="@string/btn_team_create_confirm"
                     android:textSize="20sp"
-                    android:textStyle="bold"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:weightSum="3"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/border_all_directions_with_radius"
-                android:backgroundTint="#FF9800">
-
-                <ImageView
-                    android:layout_weight="2"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:paddingLeft="30dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/ic_baseline_check_24" />
-
-                <TextView
-                    android:layout_weight="1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:paddingRight="10dp"
-                    android:text="@string/btn_team_create_confirm"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="#6E6E6E"/>
 
             </LinearLayout>
 
@@ -181,6 +162,7 @@
                     android:layout_height="20dp"
                     android:paddingLeft="20dp"
                     android:layout_gravity="center"
+                    android:backgroundTint="#6E6E6E"
                     android:src="@drawable/ic_baseline_clear_24"/>
 
                 <TextView
@@ -190,31 +172,8 @@
                     android:paddingRight="6dp"
                     android:gravity="center"
                     android:text="@string/btn_team_create_reset"
-                    android:textSize="20sp"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:weightSum="3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageView
-                    android:layout_weight="2"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:paddingLeft="30dp"
-                    android:src="@drawable/ic_baseline_clear_24"/>
-
-                <TextView
-                    android:layout_weight="1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:paddingRight="10dp"
-                    android:text="@string/btn_team_create_confirm"
-                    android:textSize="20dp"/>
+                    android:textSize="20sp"
+                    android:textColor="#6E6E6E"/>
 
             </LinearLayout>
 
