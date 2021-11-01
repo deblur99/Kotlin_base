@@ -8,5 +8,11 @@
     android:orientation="vertical"
     android:background="@color/purple_500">
 
+    <Button
+        android:id="@+id/result"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="결과"/>
+
 
 </LinearLayout>

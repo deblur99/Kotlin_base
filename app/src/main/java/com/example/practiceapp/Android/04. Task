@@ -1,0 +1,24 @@
+Task -> Activity
+
+- Stack
+    - LIFO
+    - Task 가 쌓인다.
+
+- 켜지는 방법을 자체 속성으로 가지고 있을 경우
+    -> launchMode
+
+- 켜지는 방법을 지시하는 경우
+    -> IntentFlag
+
+- LaunchMode -> 다중 허용 여부?
+    - Standard => O
+    - singleTop => 케바케. 열려 하는 activity 가 현재 activity 라면
+    onNewIntent 를 호출
+    ---------------------
+    - singleTask => X
+    - singleInstance => X
+
+- Intent 플래그
+    - FLAG_ACTIVITY_NEW_TASK
+    - FLAG_ACTIVITY_SINGLE_TOP
+    - FLAG_ACTIVITY_CLEAR_TOP 등
