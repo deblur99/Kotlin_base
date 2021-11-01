@@ -9,10 +9,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.team_search_result_list)
 
-        //Log.d("life_cycle", "onCreate")
+        Log.d("life_cycle", "onCreate")
     }
 
-    /*override fun onStart() {
+    override fun onStart() {
         super.onStart()
         Log.d("life_cycle", "onStart")
     }
@@ -35,5 +35,5 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.d("life_cycle", "onDestroy")
-    }*/
+    }
 }

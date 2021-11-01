@@ -49,4 +49,5 @@
     <!-- 팀 가입 확인하기 -->
     <string name="team_confirm_title">가입 확인</string>
     <string name="team_confirm_description">가입 신청한 팀들의 가입 승인 현황을\n확인하실 수 있어요.</string>
+    <string name="title_activity_lisntener">Lisntener</string>
 </resources>
