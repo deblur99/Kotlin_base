@@ -1,0 +1,9 @@
+NULL
+
+Null Safety 하기 위해 사용하는 syntax
+- ? : ? 앞의 변수가 null 이 아니라면 다음 구문 실행
+- !! : 개발자가 !! 앞 변수가 null 이 아님을 보장함 (위험하므로 사용자제)
+
+ex)
+button?.setOnClickListener()
+button!!.setOnClickListener()

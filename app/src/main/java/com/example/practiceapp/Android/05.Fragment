@@ -1,0 +1,17 @@
+4. Fragment
+- Activity : 앱에 보이는 한 화면의 단위
+    1. 액티비티가 길어지게 되면 관리해야 할 부분이 많아져, 유지보수가 어려워진다.
+    2. 안드로이드 디바이스가 너무 다양하다. ex) 태블릿, 노트북, TV 등
+    -> Activity 의 파트를 나누어 관리한다. (Fragment)
+
+- Fragment
+    - Activity 와 마찬가지로, 생명 주기가 존재
+    - Activity 종속적이다.
+
+- 사용법
+    - XML 에 ViewComponent 로 추가한다
+    - 코드로 동적으로 지정한다.
+
+- 데이터 전달 방법
+    - Activity -> Fragment : argument 와 bundle
+    - Fragment -> Activity : 자체 구현 (setOnClickListener 등)
