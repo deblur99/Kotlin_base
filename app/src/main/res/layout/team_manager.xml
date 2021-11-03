@@ -40,14 +40,15 @@
             android:layout_toRightOf="@id/appbar1_text"
             android:gravity="right|center">
 
-            <TextView
+            <Button
+                android:id="@+id/nav_team_creation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/border_all_directions_with_radius"
                 android:backgroundTint="@color/orange_base"
                 android:padding="10dp"
                 android:text="@string/team_generate"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="#6E6E6E"/>
 
         </LinearLayout>
@@ -144,6 +145,7 @@
         android:background="@color/white">
 
         <LinearLayout
+            android:id="@+id/nav_home"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -171,6 +173,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/nav_team_manager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -198,6 +201,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/nav_notification"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"

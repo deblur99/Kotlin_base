@@ -41,15 +41,15 @@
             android:layout_toRightOf="@id/appbar1_text"
             android:gravity="right|center">
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/border_all_directions_with_radius"
                 android:backgroundTint="#FFD08C"
                 android:padding="10dp"
                 android:text="@string/team_manage"
-                android:textColor="#6E6E6E"
-                android:textSize="20sp" />
+                android:textSize="18sp"
+                android:textColor="#6E6E6E"/>
 
         </LinearLayout>
 

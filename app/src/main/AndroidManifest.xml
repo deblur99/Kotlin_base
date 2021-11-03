@@ -9,23 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PracticeApp">
+
         <activity
-            android:name=".Context"
-            android:exported="true" />
-        <activity
-            android:name=".FragmentActivity"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".Intent_Practice"
+            android:name=".Actual.TeamCreation"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        
+        <activity
+            android:name=".Context"
+            android:exported="true" />
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Intent_Practice"
+            android:exported="true"></activity>
     </application>
 
 </manifest>

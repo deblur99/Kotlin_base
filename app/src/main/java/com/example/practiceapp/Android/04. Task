@@ -18,7 +18,7 @@ Task -> Activity
     - singleTask => X
     - singleInstance => X
 
-- Intent 플래그
+- Intent 플래그 => 값 건들지 말 것
     - FLAG_ACTIVITY_NEW_TASK
     - FLAG_ACTIVITY_SINGLE_TOP
     - FLAG_ACTIVITY_CLEAR_TOP 등
