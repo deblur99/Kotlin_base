@@ -1,9 +1,10 @@
-package com.example.practiceapp
+package com.example.practiceapp.Learn
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.practiceapp.R
 import kotlinx.android.synthetic.main.activity_intent_practice.*
 
 class Intent_Practice : AppCompatActivity() {

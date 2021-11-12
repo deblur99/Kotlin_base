@@ -1,12 +1,11 @@
-package com.example.practiceapp.Actual
+package com.example.practiceapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.practiceapp.R
 
-class TeamCreation : AppCompatActivity() {
+class TeamSearchResultList : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_team_creation)
+        setContentView(R.layout.activity_team_search_result_list)
     }
 }

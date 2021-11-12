@@ -4,6 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Context">
+    tools:context=".Learn.Intent2"
+    android:orientation="vertical"
+    android:background="@color/purple_500">
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="결과"/>
+
 
 </LinearLayout>

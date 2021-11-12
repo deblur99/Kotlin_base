@@ -1,10 +1,10 @@
-package com.example.practiceapp
+package com.example.practiceapp.Learn
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.TextView
+import com.example.practiceapp.R
 // xml 내 모든 id에 import
 import kotlinx.android.synthetic.main.activity_lisntener2.*
 

@@ -1,19 +1,20 @@
-package com.example.practiceapp
+/*
+package com.example.practiceapp.Learn
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.practiceapp.R
 import kotlinx.android.synthetic.main.activity_intent.*
-import kotlinx.android.synthetic.main.activity_intent2.*
 
 class Intent1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_intent)
+        //setContentView(R.layout.activity_intent)
 
-        change_activity.setOnClickListener {
+        //change_activity.setOnClickListener {
 //            val intent = Intent(this@Intent1, Intent2::class.java)
 //
 //            // putExtra() 함수로 Key, Value 방식으로 목적지 Intent 에 값을 전달할 수 있다.
@@ -31,9 +32,9 @@ class Intent1 : AppCompatActivity() {
 //            startActivityForResult(intent2, 200)
 
             // 암시적 인텐트
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"))
-            startActivity(intent)
-        }
+            //val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"))
+            //startActivity(intent)
+        //}
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -48,4 +49,4 @@ class Intent1 : AppCompatActivity() {
 
         super.onActivityResult(requestCode, resultCode, data)
     }
-}
+}*//**/

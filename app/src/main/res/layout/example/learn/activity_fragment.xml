@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentActivity"
+    tools:context=".Learn.FragmentActivity"
     android:orientation="vertical"
     android:gravity="center_horizontal">
 
@@ -18,7 +18,7 @@
     <!-- fragment 는 반드시 id 와 name 을 지정해 주어야 한다!-->
     <!--<fragment
         android:id="@+id/fragment_one"
-        android:name="com.example.practiceapp.FragmentOne"
+        android:name="com.example.practiceapp.Learn.FragmentOne"
         android:layout_width="match_parent"
         android:layout_height="300dp"/>-->
 

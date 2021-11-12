@@ -1,9 +1,10 @@
-package com.example.practiceapp
+package com.example.practiceapp.Learn
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import com.example.practiceapp.R
 import kotlinx.android.synthetic.main.activity_listener.*
 
 class Listener : AppCompatActivity() {

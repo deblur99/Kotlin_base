@@ -40,7 +40,7 @@
             android:layout_toRightOf="@id/appbar1_text"
             android:gravity="right|center">
 
-            <Button
+            <TextView
                 android:id="@+id/nav_team_creation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -63,9 +63,10 @@
 
     <LinearLayout
         android:id="@+id/lobby_nav"
+        android:layout_weight="7"
         android:layout_width="match_parent"
-        android:layout_height="651dp"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <RelativeLayout
             android:id="@+id/team_figure_title"
@@ -115,7 +116,7 @@
         <!-- 활동중인 팀 목록 보여주기 -->
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="512dp"
+            android:layout_height="match_parent"
             android:layout_below="@id/center_divider">
 
             <ListView
@@ -126,7 +127,6 @@
             </ListView>
 
         </ScrollView>
-
 
     </LinearLayout>
 
@@ -139,13 +139,13 @@
     <LinearLayout
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_weight="6"
+        android:layout_height="45dp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal"
-        android:background="@color/white">
+        android:weightSum="@color/white">
 
         <LinearLayout
-            android:id="@+id/nav_home"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -153,11 +153,9 @@
             android:weightSum="3">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:layout_weight="1.5"
-                android:paddingTop="4dp"
                 android:src="@drawable/ic_baseline_home_24" />
 
             <TextView
@@ -165,28 +163,24 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:paddingTop="1.6dp"
-                android:text="홈"
+                android:text="@string/bottom_nav_first_label"
                 android:textAlignment="center"
                 android:textSize="12sp"
-                android:textColor="#838383"/>
-
+                android:textColor="#6E6E6E"/>
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/nav_team_manager"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="35dp"
             android:layout_weight="1"
             android:background="@drawable/border_left_right_side"
             android:orientation="vertical"
             android:weightSum="3">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:layout_weight="1.5"
-                android:paddingTop="4dp"
                 android:src="@drawable/ic_baseline_people_24" />
 
             <TextView
@@ -194,14 +188,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:paddingTop="1.6dp"
-                android:text="팀"
+                android:text="@string/bottom_nav_second_label"
                 android:textAlignment="center"
-                android:textSize="12sp"
-                android:textColor="@color/orange_accent"/>
+                android:textColor="@color/orange_accent"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/nav_notification"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -209,11 +202,9 @@
             android:weightSum="3">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:layout_weight="1.5"
-                android:paddingTop="4dp"
                 android:src="@drawable/ic_baseline_notifications_24" />
 
             <TextView
@@ -221,10 +212,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:paddingTop="1.6dp"
-                android:text="알림"
+                android:text="@string/bottom_nav_third_label"
                 android:textAlignment="center"
-                android:textSize="12sp"
-                android:textColor="#838383"/>
+                android:textColor="#6E6E6E"
+                android:textSize="12sp" />
         </LinearLayout>
-    </LinearLayout>
 </LinearLayout>

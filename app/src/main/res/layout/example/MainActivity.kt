@@ -1,13 +1,14 @@
-package com.example.practiceapp
+package com.example.practiceapp.Learn
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.example.practiceapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.team_search_result_list)
+        setContentView(R.layout.activity_team_search_result_list)
 
         Log.d("life_cycle", "onCreate")
     }

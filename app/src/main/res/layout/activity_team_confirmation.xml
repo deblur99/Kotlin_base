@@ -67,7 +67,7 @@
             android:orientation="vertical">
 
             <!-- 목록 단위 예시 -->
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -83,7 +83,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -91,7 +91,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -99,7 +99,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -107,7 +107,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -115,7 +115,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -123,7 +123,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -131,7 +131,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -139,7 +139,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -147,7 +147,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -155,7 +155,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -163,7 +163,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -171,7 +171,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="match_parent"
@@ -179,7 +179,7 @@
                 android:layout_alignBottom="@+id/top_nav"
                 app:dividerColor="#CDCDCD" />
 
-            <include layout="@layout/confirmed_result_item"/>
+            <include layout="@layout/activity_confirmed_result_item"/>
 
         </LinearLayout>
 
