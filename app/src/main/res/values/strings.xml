@@ -27,7 +27,8 @@
 
     <string name="bottom_nav_first_label">홈</string>
     <string name="bottom_nav_second_label">팀</string>
-    <string name="bottom_nav_third_label">알림</string>
+    <string name="bottom_nav_third_label">설정</string>
+    <string name="bottom_nav_notification_label">알림</string>
 
     <!-- 팀 생성 -->
     <string name="team_create_title">팀 만들기</string>
