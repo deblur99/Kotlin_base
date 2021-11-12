@@ -85,16 +85,24 @@
             android:backgroundTintMode="multiply"
             android:orientation="horizontal">
 
-            <TextView
+            <EditText
+                android:id="@+id/team_search_bar"
+                android:autofillHints="name"
                 android:layout_width="240dp"
                 android:layout_height="match_parent"
-                android:paddingLeft="30dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:gravity="center|left"
-                android:text="@string/team_search_bar_placeholder"
+                android:hint="@string/team_search_bar_placeholder"
+                android:maxLength="12"
+                android:singleLine="true"
                 android:textSize="18sp"
-                android:textColor="#989898"/>
+                android:textColor="#989898"
+                android:background="@null"
+                android:textCursorDrawable="@drawable/text_cursor"/>
 
             <LinearLayout
+                android:id="@+id/team_search_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/border_all_directions_with_radius"
